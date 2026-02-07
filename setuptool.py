@@ -109,7 +109,7 @@ def setup_database():
 
         cursor = conn.cursor()
 
-        # Create DB if not exists
+       
         cursor.execute("CREATE DATABASE IF NOT EXISTS expense_tracker")
         cursor.execute("USE expense_tracker")
 
